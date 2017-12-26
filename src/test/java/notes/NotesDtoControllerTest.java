@@ -1,7 +1,9 @@
-package login;
+/*
+package notes;
 
-import login.controller.LoginDetailsController;
+import notes.controller.NotesController;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,15 +16,17 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+*/
 /**
  * Created by vijay on 13/11/17.
- */
+ *//*
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class LoginDetailsControllerTest {
+public class NotesDtoControllerTest {
 
     @Autowired
-    private LoginDetailsController loginDetailsController;
+    private NotesController loginDetailsController;
 
     private MockMvc mockMvc;
 
@@ -31,6 +35,7 @@ public class LoginDetailsControllerTest {
         this.mockMvc = MockMvcBuilders.standaloneSetup(loginDetailsController).build();
     }
 
+    @Ignore
     @Test
     public void testCreateMethod() throws Exception {
         String requestDto = "{\"userName\":\"vijay\",\"password\":\"12345678\"}";
@@ -40,3 +45,4 @@ public class LoginDetailsControllerTest {
     }
 
 }
+*/

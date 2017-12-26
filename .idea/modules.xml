@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_main.iml" group="springboot-mongodb" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mongodb_test.iml" group="springboot-mongodb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-jwt-security.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-jwt-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-jwt-security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-jwt-security_main.iml" group="springboot-jwt-security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-jwt-security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-jwt-security_test.iml" group="springboot-jwt-security" />
     </modules>
   </component>
 </project>

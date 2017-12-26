@@ -1,10 +1,4 @@
-#spring.responseData.mongodb.authentication-database : # Authentication database name.
-spring.responseData.mongodb.database : test # Database name.
-# spring.responseData.mongodb.field-naming-strategy : # Fully qualified name of the FieldNamingStrategy to use.
-# spring.responseData.mongodb.grid-fs-database : # GridFS database name.
-spring.responseData.mongodb.host : localhost # Mongo server host.
-#spring.responseData.mongodb.password :  # Login password of the mongo server.
-spring.responseData.mongodb.port : 27017 # Mongo server port.
-#spring.responseData.mongodb.repositories.enabled : true # Enable Mongo repositories.
-#spring.responseData.mongodb.uri : mongodb://localhost/test # Mongo database URI. When set, host and port are ignored.
-#spring.responseData.mongodb.userName : # Login user of the mongo server.
+spring.datasource.url : jdbc:mysql://localhost:3309/sampledb
+spring.datasource.username : root
+spring.datasource.password : root
+spring.jpa.hibernate.ddl-auto : update

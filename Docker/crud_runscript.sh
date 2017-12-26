@@ -1,18 +1,17 @@
 #!/bin/bash
 
-#docker pull yashvijaydocker/springbootgradle-starter:YV101117
+#docker pull yashvijaydocker/notes-backend:YV241117
 
-#docker rm -f springbootgradle-starter
+#docker rm -f notes-backend
 
 docker run \
      -d \
-     --name springboot-service \
+     --name notes-backend \
      --restart always \
-     --net sam-ntwk
-     --link mysql_test \
+     --link mongodb \
       -e spring.datasource.url='jdbc:mysql://mysql_test:3309/sampledb' \
       -e spring.datasource.userName='root' \
       -e spring.datasource.password='root' \
       -e spring.jpa.hibernate.ddl-auto='update' \
     -p 8892:8080 \
-    yashvijaydocker/springbootgradle-starter:YV101117
+    yashvijaydocker/notes-backend:YV101117
